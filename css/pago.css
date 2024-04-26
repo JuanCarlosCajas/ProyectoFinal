@@ -1,0 +1,76 @@
+.title{
+    color: #fff;
+    text-align: center;
+}
+
+.registerCard{
+    background-color: #fff;
+    color: black;
+    width: 300px;
+    padding: 1rem 3rem;
+    margin: 50px auto;
+    animation: opacity 2s alternate;
+    border-radius: 5px;
+}
+
+#typeCard{
+    width: 190px;
+}
+
+#numberCard{
+    width: 285px;
+}
+
+
+#fechaCard{
+    width: 50px;
+
+    &:invalid{
+        border: 2px solid red;
+    }
+}
+
+#cvCard{
+    width: 50px;
+
+    &:invalid{
+        border: 2px solid red;
+    }
+
+    &::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+    }
+
+}
+
+.table-container{
+    position: relative;
+    margin: 60px auto;
+    width: 900px;
+    table-layout: fixed;
+}
+
+.table-container td{
+    text-align: center;
+    max-width: 200px;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+}
+
+.button-paid{
+    padding: 0.8rem 1.2rem;
+    display: block;
+    margin: 16px auto;
+    background-color: #008DFB;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #016ABC;
+    }
+}
+
+.total{
+    text-align: center;
+}

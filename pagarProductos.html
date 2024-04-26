@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/shop-icon-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/pago.css">
+    <link rel="stylesheet" href="css/tienda.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>ShopCSS</title>
+</head>
+<body>
+    <header class="header-container">
+        <a class="store-logo">
+            <i class='bx bxs-store-alt logo'></i>
+            <h1>ShopCSS</h1>
+        <a/>
+        <div class="user-container">
+            <img src="img/user.svg" width="50px" height="50px" alt="user" class="user-logo">
+            <p>Bienvenido <strong>Juan Carlos</strong></p>
+            <img src="img/down-key.svg" width="30px" height="30px" alt="down" class="key-down">
+        </div>
+    </header>
+    <h1 class="title">Pago de productos</h1>
+    <form for="" class="registerCard">
+        <p><label for="typeCard">Tipo de Tarjeta: </label><input type="text" name="txtTipo" id="typeCard" required></p>
+        <p><label for="numberCard">Numero de Tarjeta: </label><input type="text" name="txtTarjeta" id="numberCard" required></p>
+        <p>
+            <label for="fechaCard">Fecha de Expiración: </label><input type="text" title="Hola" name="txtfechaExp" id="fechaCard" pattern="([0-9]{2})\/(0[1-9]|1[0-2])" required>
+            <label for="cvCard">CV: </label><input type="number" name="txtCV" id="cvCard" required> 
+        </p>
+        <button type="button" class="button-paid">Pagar Productos</button>
+    </form>
+    <h2 class="total">Total: S/. 1209.80</h2>
+
+    <table class="table-container">
+        <thead>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>SubTotal</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/hola.gif" alt="" width="50px" height="50px"></td>
+                <td>DFEKLWFKLWEKFLWEFLWKERLFEWRFKRLWKERFLWLERLFWEKRÑLEWKRLKWELRKLWEKRLKRLWK</td>
+                <td>10</td>
+                <td>190.90</td>
+                <td>199.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
